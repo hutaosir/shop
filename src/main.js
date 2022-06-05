@@ -43,7 +43,7 @@ Vue.use(VueLazyload, {
   loading: hutao,
 })
 
-console.log();
+
 reqCategoryList()
 reqGetSearchInfo()
 new Vue({
