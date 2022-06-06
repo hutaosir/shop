@@ -13,7 +13,7 @@ import * as API from '@/api'
 import { Button,MessageBox } from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 
-
+// 去掉生产提示
 Vue.config.productionTip = false
 
 Vue.component(TypeNav.name,TypeNav)
@@ -36,8 +36,6 @@ import VueLazyload from 'vue-lazyload'
 import hutao from '@/assets/hutao.webp'
 
 // 表单验证
-import "@/plugins/validate"
-
 Vue.use(VueLazyload, {
   
   loading: hutao,
