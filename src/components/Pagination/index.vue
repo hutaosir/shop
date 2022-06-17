@@ -39,7 +39,7 @@ export default {
         if(start<1){
           start = 1
           end =continues
-          // 121
+          
         }
         // 如果最后的默认也选中的是最后一个的话，会比totalPage多,这是不允许的
         if(end>totalPage){
